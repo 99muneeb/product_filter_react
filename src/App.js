@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Menu from './Menu';
+import Products from './Products';
 import Categories from './Categories';
 import items from './data';
 import fetchProducts from './data';
@@ -44,7 +44,7 @@ function App() {
           <div className="underline"></div>
         </div>
         <Categories categories={categories} filterItems={filterItems} />
-        <Menu products={products} />
+        <Products products={products} />
       </section>
     </main>
   );

@@ -1,2 +1,2 @@
-# Products shoe with categories in react
+# Products show with categories in react
 
